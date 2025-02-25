@@ -21,18 +21,12 @@
 1. Compare the 2 Snapshots.
 2. Attempt to play with the tool to see what you can get from it. Make sure you see Retention Graphs.
 
-## Step 5: Analyze the Collected Data from dotMemory Profiling
-1. After capturing the snapshot, dotMemory will automatically open it.
-2. Navigate to the __Overview__ tab to get a summary of memory usage.
-3. Use the __Analysis__ tab to drill down into specific memory allocations.
-4. Explore the __Class List__ and __Object Set__ views to identify objects that are consuming the most memory.
-
-## Step 6: Identify Memory Issues
+## Step 5: Identify Memory Issues
 1. Look for large objects or a high number of allocations that might indicate memory leaks or inefficient memory usage.
 2. Pay attention to objects that are not being garbage collected, which might indicate references that are not being released properly.
 3. Use the __Comparative Analysis__ feature in dotMemory to compare memory usage between different snapshots to identify changes in memory behavior.
 
-## Step 7: Optimize and Fix Memory Issues
+## Step 6: Optimize and Fix Memory Issues
 1. Based on the findings from dotMemory, identify the parts of your code that are causing memory issues.
 2. Refactor your code to optimize memory usage, such as:
    - Reducing the size of large objects.
