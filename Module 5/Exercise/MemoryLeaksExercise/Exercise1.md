@@ -66,11 +66,11 @@ The project contains the following files and classes:
    - Open a terminal and navigate to the project directory.
    - Run the application: `dotnet run`
    - To get <process-id>, run `dotnet ps` in the terminal.
-   - In another terminal, create a GC dump: `dotnet gcdump collect -p <process-id> -o first_dump.gcdump`
+   - In another terminal, create a GC dump: `dotnet-gcdump collect -p <process-id> -o first_dump.gcdump`
    
 2. **Create the Second GC Dump**:
    - Let the application run for a few more minutes.
-   - Create another GC dump: `dotnet gcdump collect -p <process-id> -o second_dump.gcdump`
+   - Create another GC dump: `dotnet-gcdump collect -p <process-id> -o second_dump.gcdump`
 
 3. **Compare GC Dumps in Visual Studio**:
    - Open Visual Studio.
@@ -84,7 +84,7 @@ The project contains the following files and classes:
 1. **Take a Dump Using dotnet-dump**:
    - Open a terminal and navigate to the project directory.
    - Run the application: `dotnet run`
-   - In another terminal, take a dump: `dotnet dump collect -p <process-id> -o memory_dump.dmp`
+   - In another terminal, take a dump: `dotnet-dump collect -p <process-id> -o memory_dump.dmp`
 
 2. **Run Diagnostic Analysis on the Dump**:
    - Open Visual Studio.
