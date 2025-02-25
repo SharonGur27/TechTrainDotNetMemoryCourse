@@ -10,7 +10,6 @@ The project contains the following files and classes:
 - `PotionEventHandler.cs`: Demonstrates event handler leaks.
 - `PotionStorage.cs`: Demonstrates static reference leaks.
 - `PotionMixer.cs`: Demonstrates closure in anonymous methods leaks.
-- `BytesAllocator.cs`: Demonstrates memory allocation.
 
 ## Prerequisites
 
