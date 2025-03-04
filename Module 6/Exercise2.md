@@ -1,4 +1,4 @@
-# Using PerfView to Find Memory Issues in PerfViewWilliWonkaChocolateFactory (Alternatively, use project MemoryLeak in Module 5.sln)
+# Using PerfView to Find Memory Issues with PerfView in WilliWonkaChocolateFactory (Alternatively, use project MemoryLeak in Module 5.sln)
 
 ## Step 1: Download and Install 
 1. Go to the [PerfView GitHub Releases page](https://github.com/microsoft/perfview/releases).
