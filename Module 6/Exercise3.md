@@ -13,7 +13,7 @@
 
 ## Step 3: Create a .nettrace File Using dotnet-trace
 1. Open a command prompt or terminal.
-2. Run the following command to start collecting trace data: dotnet-trace collect -p <process-id> --providers Microsoft-DotNETCore-SampleProfiler --format nettrace
+2. Run the following command to start collecting trace data: dotnet-trace collect -p <process-id> 
    Replace `<process-id>` with the process ID of your running application. You can find the process ID using tools like Task Manager or `dotnet-trace ps`.
 3. Run your application to reproduce the memory issues.
 4. Press `Ctrl+C` in the command prompt or terminal to stop the trace collection. This will generate a `.nettrace` file in the current directory.
