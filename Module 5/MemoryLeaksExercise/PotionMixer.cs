@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace MemoryLeaksExercise
     {
         public async Task MixAsync()
         {
-            var byteArray = new byte[1024];
+            var byteArray = new byte[1024 * 1024];
             _ = Task.Run(() =>
             {
                 // Capturing byteArray in closure
