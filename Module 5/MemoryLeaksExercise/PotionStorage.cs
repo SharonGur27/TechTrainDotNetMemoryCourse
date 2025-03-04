@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,7 @@ namespace MemoryLeaksExercise
 
         public void Store()
         {
-            _storedPotions.Add(new byte[1024]); 
+            _storedPotions.Add(new byte[1024 * 1024]); 
         }
     }
 }
