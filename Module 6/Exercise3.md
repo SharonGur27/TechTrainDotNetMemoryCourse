@@ -50,9 +50,3 @@
 1. Look for large objects or a high number of allocations that might indicate memory leaks or inefficient memory usage.
 2. Pay attention to objects that are not being garbage collected, which might indicate references that are not being released properly.
 
-## This Project Contains the following Memory Leak Types
-
-1. **Event Handler Leak**: Subscribing to events without unsubscribing.
-2. **Static Field Leak**: Storing objects in static fields.
-3. **Timer Leak**: Using timers without stopping them.
-4. **Unmanaged Resource Leak**: Allocating unmanaged memory without freeing it.
