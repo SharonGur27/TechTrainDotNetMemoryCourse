@@ -22,7 +22,7 @@
 1. Open a command prompt or terminal.
 2. Navigate to the directory where `AzureProfilerExtension.exe` is located.
 3. Run the following command to start profiling:
-   .\AzureProfilerExtension.exe /GroupName:TestGroupSharon /Directory:<Directory-of-your-choice> /VerboseLog /IntervalMinutes:0 /AuxCLR
+   .\AzureProfilerExtension.exe /GroupName:TestGroupSharon /Directory:****Directory-of-your-choice**** /VerboseLog /IntervalMinutes:0 /AuxCLR
 4. This will create a `*.bin` file in <Directory-of-your-choice>.
 
 ## Step 5: Analyze the Profiling Data
